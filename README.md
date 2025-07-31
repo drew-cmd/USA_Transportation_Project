@@ -23,6 +23,9 @@ USA_TRANSPORTATION_PROJECT/
 │ └── north_america_rail_air_metro_corridors_pop_weighted_final.html
 │
 ├── USA_Rail_Lines_Stations_Corridors (map & corridor CSVs).py
+├── LICENSE
+├── NOTICE
+├── README.md
 ├── .gitattributes
 ├── .gitignore
 ```
@@ -79,20 +82,13 @@ python "USA_Rail_Lines_Stations_Corridors (map & corridor CSVs).py"
 
 This will:
 
-Load and process geospatial data
-Compute and score corridors
-Generate corridors_top100.geojson
-Create north_america_rail_air_metro_corridors_pop_weighted_final.html map in Output/
-
-Data Sources
-```
-National Transportation Atlas Database (NTAD)
-U.S. Census TIGER/Line Shapefiles (2023)
-American Community Survey (ACS) Place-Level Population
-```
+- Load and process geospatial data
+- Compute and score corridors
+- Generate corridors_top100.geojson
+- Create north_america_rail_air_metro_corridors_pop_weighted_final.html map in Output/
 
 
-Notes
+### Notes
 
 Large files (e.g., .gpkg, .html, .shp) are tracked via Git LFS.
 GitHub blocks files over 100 MB in standard Git—please install Git LFS:
@@ -105,7 +101,15 @@ git lfs install
 Outputs are viewable locally (e.g., in a browser or GIS software).
 
 
-### Data Licensing
+---
 
-This project uses datasets published by the U.S. federal government (e.g., NTAD, TIGER/Line) which are public domain under 17 U.S.C. § 105. 
-These datasets are not protected by copyright and are freely available for public use.
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+### Data Sources
+
+The datasets used in this project originate from U.S. government sources (e.g., NTAD, TIGER/Line, ACS) and are in the public domain under 17 U.S.C. § 105.
+
+For more information, see the [`NOTICE`](NOTICE) file.
+
